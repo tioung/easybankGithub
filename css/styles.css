@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html{
+    color: #f1f1f1;
+    background-color: #000;
+}
+
+body h1{
+    text-align: center;
+}
