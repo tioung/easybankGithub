@@ -40,9 +40,22 @@ a, a:visited, a:hover{
 
 //button
 button, .button{
-    padding: 1rem 1.875rem;
+    padding: 0.875rem 2.1875rem;
     background: linear-gradient(to right, $limeGreen, $brightCyan);
     border: none;
     border-radius: 50px;
     cursor: pointer;
+}
+
+//visibility
+.hide-for-mobile{
+    @include breakpoint-down(medium){
+        display: none;
+    }
+}
+
+.hide-for-desktop{
+    @include breakpoint-up(large){
+        display: none;
+    }
 }
